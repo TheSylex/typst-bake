@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.7] - 2026-03-03
+
+### Fixed
+
+- Fix Windows path separator mismatch in embedded file resolver causing "file not found" errors for package imports
+
+### Changed
+
+- Update `zip` dependency from 7 to 8
+
 ## [0.1.6] - 2025-02-14
 
 ### Added
@@ -121,6 +131,7 @@ Initial release of typst-bake - a library to bake Typst templates, fonts, and pa
 - **Optimized Binary Size** - Resources compressed with zstd, decompressed lazily at runtime
 - **Smart Recompilation** - File changes detected automatically by Cargo
 
+[0.1.7]: https://github.com/elgar328/typst-bake/compare/v0.1.6...v0.1.7
 [0.1.6]: https://github.com/elgar328/typst-bake/compare/v0.1.5...v0.1.6
 [0.1.5]: https://github.com/elgar328/typst-bake/compare/v0.1.4...v0.1.5
 [0.1.4]: https://github.com/elgar328/typst-bake/compare/v0.1.3...v0.1.4
